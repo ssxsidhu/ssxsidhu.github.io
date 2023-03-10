@@ -43,7 +43,7 @@ The layout parameter specifies the layout to use for the page, and the title par
 
 ### Step 3: Create a new Jekyll site
 
-1. In VS Code, open the terminal (`Ctrl+` ` (Windows) or `Cmd+` ` (Mac)).
+1. In VS Code, open the terminal (`Ctrl+` \`` (Windows) or `Cmd+`\` ` (Mac)).
 2. Navigate to your project folder using the `cd` command.
 3. Create a new Jekyll site in your project folder by running `jekyll new .`
 4. This will create all the necessary files and folders for a basic Jekyll site.
