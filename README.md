@@ -1,3 +1,5 @@
+![1](resume.gif)
+
 # Hosting a Resume with Markdown, VS Code, GitHub Pages, and Jekyll
 
 ## Purpose
