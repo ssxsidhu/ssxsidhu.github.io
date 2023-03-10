@@ -28,8 +28,8 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 
 ```
 ---
-layout: default
-title: [Your Name] - Resume
+layout: home
+title: Your Name
 ---
 ```
 The layout parameter specifies the layout to use for the page, and the title parameter specifies the title of the page, which will appear in the browser tab and search results.
