@@ -8,84 +8,62 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 
 ## Prerequisites
 
-You'll need a resume that is Markdown-formatted before you can proceed with the guidelines below. If you are new to Markdown, we suggest starting with a Markdown tutorial, a link for which can be found in [more resources section](#more-resources).
+- You'll need a resume that is Markdown-formatted before you can proceed with the guidelines below. If you are new to Markdown, we suggest starting with a Markdown tutorial, a link for which can be found in [more resources section](#more-resources).
+- [Git](https://git-scm.com/downloads)
+- [VS Code](https://code.visualstudio.com/download)
 
 ## Instructions
 
-### 1\. Create a New Project Folder in VS Code
+### Step 1: Set up your project
 
-First, open VS Code and create a new folder for your website project. You can do this by going to `File` > `Open Folder` and selecting a new empty folder.
-
-### 2\. Create an `index.md` File
-
-Next, create a new file in the folder and name it `index.md`. This file will serve as the main page of your website.
-
-### 3\. Copy Your Resume into `index.md`
-
-Open your Markdown resume file in a separate tab in VS Code. Copy the contents of your Markdown resume file into `index.md`.
-
-### 4\. Add Front Matter to `index.md`
-
-Add front matter to `index.md` to specify the layout and metadata for your website. Front matter is a YAML block that appears at the beginning of your file and tells Jekyll how to handle the file. Here is an example:
+1. Open VS Code.
+2. Go to `File > Open Folder` and select a new empty folder for your website project.
+3. In VS Code, create a new file in your project folder and name it `index.md`.
+4. This file will serve as the main page of your website.
+5. Open your Markdown resume file in a separate tab in VS Code.
+6. Copy the contents of your Markdown resume file into `index.md`.
+7. Add front matter to `index.md` to specify the layout and metadata for your website.
+8. Front matter is a YAML block that appears at the beginning of your file and tells Jekyll how to handle the file.
+9. Here is an example:
 
 ```
 ---
 layout: default
 title: [Your Name] - Resume
---- 
+---
 ```
+The layout parameter specifies the layout to use for the page, and the title parameter specifies the title of the page, which will appear in the browser tab and search results.
 
-The `layout` parameter specifies the layout to use for the page, and the `title` parameter specifies the title of the page, which will appear in the browser tab and search results.
+10. Save index.md to ensure that your changes are preserved.
 
-### 5\. Save `index.md`
+### Step 2: Install Jekyll
 
-Save `index.md` to ensure that your changes are preserved.
+1. Install Jekyll by following the [official installation guide](https://jekyllrb.com/docs/installation/).
+2. This will install all the necessary components and dependencies to run your website.
 
-### 6\. Install Jekyll
+### Step 3: Create a new Jekyll site
 
-Install Jekyll by following the [official installation guide](https://jekyllrb.com/docs/installation/). This will install all the necessary components and dependencies to run your website.
+1. In VS Code, open the terminal (`Ctrl+` ` (Windows) or `Cmd+` ` (Mac)).
+2. Navigate to your project folder using the `cd` command.
+3. Create a new Jekyll site in your project folder by running `jekyll new .`
+4. This will create all the necessary files and folders for a basic Jekyll site.
 
-### 7\. Create a New Jekyll Site
+### Step 4: Serve and preview your website
 
-Create a new Jekyll site in your project folder by running 
-```
-jekyll new .
-``` 
-in the terminal. This will create all the necessary files and folders for a basic Jekyll site.
+1. In the terminal, run `bundle exec jekyll serve` to build and serve your website.
+2. This will generate your site and make it available at `http://localhost:4000`.
+3. Open your web browser and go to `http://localhost:4000` to view your website.
+4. This is a good opportunity to check that your website is working as expected.
 
-### 8\. Serve Your Website
+### Step 5: Commit and push changes
 
-Run `bundle exec jekyll serve` in the terminal to build and serve your website. This will generate your site and make it available at `http://localhost:4000`.
+1. In VS Code, press `Ctrl+Shift+G` (Windows) or `Cmd+Shift+G` (Mac) to open the Source Control panel.
+2. Stage all changes by clicking on "+" next to each file in the list of changes.
+3. Enter a commit message (e.g., "Add initial version of resume") in the text field at the top of the panel.
+4. Press `Ctrl+Enter` (Windows) or `Cmd+Enter` (Mac) to commit changes.
+5. Click on the "..." icon in the top right corner of the Source Control panel and select "Push" to push changes to GitHub.
 
-```
-bundle exec jekyll serve
-```
-
-### 9\. Preview Your Website
-
-Open your web browser and go to `http://localhost:4000` to view your website. This is a good opportunity to check that your website is working as expected.
-
-### 10\. Commit and Push Your Changes
-Commit and push your changes to a GitHub repository or a Codeberg repository. This will ensure that your website is available to the world.
-
-
-```
-git add.
-git commit -m "Add resume to website"
-git push origin main
-```
-
-### 11\. Enable GitHub Pages or Codeberg Pages
-
-Go to your repository settings and enable GitHub Pages or Codeberg Pages, choosing the `main` branch as the source. This will make your website available online.
-
-### 12\. Check Your Website
-
-Your website should now be accessible at `https://[your-username].github.io/[repository-name]/` or `https://[your-username].codeberg.page/[repository-name]/`. Check your website to make sure it is working as expected.
-
-### Customizing Your Website
-
-To make your website more visually appealing, you can customize the Jekyll theme by editing the `_config.yml` file and the HTML and CSS files in the `_layouts` and `_includes` folders. You can also add more pages and content to your website by creating
+That's it! You have successfully hosted and formatted a resume using Markdown, VS Code, GitHub Pages and Jekyll.
 
 ## Relating to Technical Writing Principles
 
