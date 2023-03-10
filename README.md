@@ -8,7 +8,7 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 
 ## Prerequisites
 
-You'll need a résumé that is Markdown-formatted before you can proceed with the guidelines below. We suggest starting with a [more resources section](#more-resources) if you are new to Markdown.
+You'll need a résumé that is Markdown-formatted before you can proceed with the guidelines below. If you are new to Markdown, we suggest starting with a Markdown tutorial, a link for which can be found in [more resources section](#more-resources).
 
 ## Instructions
 
