@@ -4,11 +4,11 @@
 
 ## Purpose
 
-This README's goal is to outline the detailed procedures for hosting and formatting a résumé using Markdown, VS Code, GitHub Pages, and Jekyll. The general guidelines of contemporary technical writing, as outlined in Andrew Etter's book Modern Technical Writing, will also be related to these practical processes.
+This README's goal is to outline the detailed procedures for hosting and formatting a resume using Markdown, VS Code, GitHub Pages, and Jekyll. The general guidelines of contemporary technical writing, as outlined in Andrew Etter's book Modern Technical Writing, will also be related to these practical processes.
 
 ## Prerequisites
 
-You'll need a résumé that is Markdown-formatted before you can proceed with the guidelines below. If you are new to Markdown, we suggest starting with a Markdown tutorial, a link for which can be found in [more resources section](#more-resources).
+You'll need a resume that is Markdown-formatted before you can proceed with the guidelines below. If you are new to Markdown, we suggest starting with a Markdown tutorial, a link for which can be found in [more resources section](#more-resources).
 
 ## Instructions
 
