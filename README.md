@@ -57,7 +57,7 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 4. Copy the contents of your Markdown resume file into `index.markdown`.
 5. Save `index.markdown` to ensure that your changes are preserved.
 
-## Step 7: Preview your resume
+### Step 7: Preview your resume
 
 1. In VS Code, press `Ctrl+Shift+V` (Windows) or `Cmd+Shift+V` (Mac) to open the Markdown preview window.
 2. You should see a preview of what your resume will look like when it's rendered as HTML.
