@@ -8,7 +8,7 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 
 ## Prerequisites
 
-You'll need a résumé that is Markdown-formatted before you can proceed with the guidelines below. We suggest starting with a [Markdown tutorial](https://www.markdowntutorial.com/) if you are new to Markdown.
+You'll need a résumé that is Markdown-formatted before you can proceed with the guidelines below. We suggest starting with a [more resources section](#more-resources) if you are new to Markdown.
 
 ## Instructions
 
@@ -94,7 +94,7 @@ To make your website more visually appealing, you can customize the Jekyll theme
 2. Automate Documentation Tasks: Etter also suggests using technologies like Jekyll to automate documentation chores. This idea is followed by utilising Jekyll to convert your Markdown file to HTML and host your website.
 3. Web-Publish Documents: Etter proposes making documents available on the web in order to reach a larger audience. You can host your CV on GitHub Pages or Codeberg.
 
-## More Resources
+## More Resources {#more-resources}
 
 1. [Markdown tutorial](https://www.markdowntutorial.com/)
 2. [Modern Technical Writing by Andrew Etter](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
