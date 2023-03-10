@@ -1,6 +1,7 @@
 ---
 
 layout: home
+title: Sahilpreet Singh Sidhu
 ---
 [204-404-7463](tel:2044047463) | [sidhuss3@myumanitoba.ca](mailto:sidhuss3@myumanitoba.ca) | [github.com/ssxsidhu](https://github.com/ssxsidhu)
 
