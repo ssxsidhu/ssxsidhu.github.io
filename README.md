@@ -22,7 +22,7 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 4. Select "Public" for the repository visibility.
 5. Click on "Create repository".
 
-## Step 2: Enable GitHub Pages
+### Step 2: Enable GitHub Pages
 
 1. In your GitHub repository, click on the "Settings" tab.
 2. Scroll down to the "GitHub Pages" section.
