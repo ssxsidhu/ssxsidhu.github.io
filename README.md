@@ -14,54 +14,70 @@ This README's goal is to outline the detailed procedures for hosting and formatt
 
 ## Instructions
 
-### Step 1: Set up your project
+### Step 1: Create a new repository on GitHub
+
+1. Log in to your GitHub account.
+2. Click on the "+" icon in the top right corner and select "New repository".
+3. Name your repository `<username>.github.io`, where `<username>` is your GitHub username.
+4. Select "Public" for the repository visibility.
+5. Click on "Create repository".
+
+## Step 2: Enable GitHub Pages
+
+1. In your GitHub repository, click on the "Settings" tab.
+2. Scroll down to the "GitHub Pages" section.
+3. Under "Source", select "main" from the dropdown menu and click on "Save".
+4. You should see a message that says "Your site is ready to be published at `<username>.github.io`".
+
+### Step 3: Clone the repository to your local machine
 
 1. Open VS Code.
-2. Go to `File > Open Folder` and select a new empty folder for your website project.
-3. In VS Code, create a new file in your project folder and name it `index.md`.
-4. This file will serve as the main page of your website.
-5. Open your Markdown resume file in a separate tab in VS Code.
-6. Copy the contents of your Markdown resume file into `index.md`.
-7. Add front matter to `index.md` to specify the layout and metadata for your website.
-8. Front matter is a YAML block that appears at the beginning of your file and tells Jekyll how to handle the file.
-9. Here is an example:
+2. Press `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac) to open the Command Palette.
+3. Type "Git: Clone" and press Enter.
+4. Paste the URL of your GitHub repository (e.g., `https://github.com/<username>/<username>.github.io.git`) and press Enter.
+5. Select a location on your local machine where you want to save the repository.
 
-```
----
-layout: home
-title: Your Name
----
-```
-The layout parameter specifies the layout to use for the page, and the title parameter specifies the title of the page, which will appear in the browser tab and search results.
-
-10. Save index.md to ensure that your changes are preserved.
-
-### Step 2: Install Jekyll
+### Step 4: Install Jekyll
 
 1. Install Jekyll by following the [official installation guide](https://jekyllrb.com/docs/installation/).
 2. This will install all the necessary components and dependencies to run your website.
 
-### Step 3: Create a new Jekyll site
+### Step 5: Create a new Jekyll site
 
-1. In VS Code, open the terminal (`Ctrl+` \` (Windows) or `Cmd+`\`  (Mac)).
-2. Navigate to your project folder using the `cd` command.
+1. In VS Code, open the terminal (`Ctrl+` \` (Windows) or `Cmd+` \`  (Mac)).
+2. Navigate to your cloned repository folder using the `cd` command.
 3. Create a new Jekyll site in your project folder by running `jekyll new .`
 4. This will create all the necessary files and folders for a basic Jekyll site.
 
-### Step 4: Serve and preview your website
+### Step 6: Set up your project
+
+1. Open your Markdown resume file in a separate tab in VS Code.
+2. Open the newly created `index.markdown` 
+3. Don't remove the front matter in `index.markdown` as it is used to specify the layout and metadata for your website.
+4. Copy the contents of your Markdown resume file into `index.markdown`.
+5. Save `index.markdown` to ensure that your changes are preserved.
+
+## Step 7: Preview your resume
+
+1. In VS Code, press `Ctrl+Shift+V` (Windows) or `Cmd+Shift+V` (Mac) to open the Markdown preview window.
+2. You should see a preview of what your resume will look like when it's rendered as HTML.
+
+### Step 8: Serve and preview your website
 
 1. In the terminal, run `bundle exec jekyll serve` to build and serve your website.
 2. This will generate your site and make it available at `http://localhost:4000`.
 3. Open your web browser and go to `http://localhost:4000` to view your website.
 4. This is a good opportunity to check that your website is working as expected.
 
-### Step 5: Commit and push changes
+### Step 9: Commit and push changes
 
 1. In VS Code, press `Ctrl+Shift+G` (Windows) or `Cmd+Shift+G` (Mac) to open the Source Control panel.
 2. Stage all changes by clicking on "+" next to each file in the list of changes.
 3. Enter a commit message (e.g., "Add initial version of resume") in the text field at the top of the panel.
 4. Press `Ctrl+Enter` (Windows) or `Cmd+Enter` (Mac) to commit changes.
 5. Click on the "..." icon in the top right corner of the Source Control panel and select "Push" to push changes to GitHub.
+6. Wait a few minutes for GitHub Pages to build your site with Jekyll.
+7. Refresh `<username>.github.io` in your web browser to see your customized resume.
 
 That's it! You have successfully hosted and formatted a resume using Markdown, VS Code, GitHub Pages and Jekyll.
 
