@@ -36,16 +36,24 @@ GPA: 3.85/4.5
 
 ## Experience
 
+**Undergraduate Research Fellow** 
+*University of Waterloo* | Waterloo, ON
+ May 2023 – Sep 2023
+- Conducted research in collaboration with Acronis to optimize backup storage systems through data
+deduplication techniques
+- Performed experiments on the 5 different datasets to assess the effectiveness of the chunking techniques
+- Analyzed and compared the results obtained from applying the chunking techniques to each dataset
+
 **Teaching Assistant**  
 *University of Manitoba* | Winnipeg, MB  
-Jan 2023 – present
+Jan 2023 – May 2023
 - Course: COMP 2140 (Data structures and algorithms)
 - Assisted with the setup and management of programming and technology lab environments
 - Assisted professor in grading lab work.
 
 **Technology Assistant**   
 *Price Faculty of Engineering, University of Manitoba* | Winnipeg, MB  
-Sep 2022 – present
+Sep 2022 – May 2023
 - Designing and maintaining individual faculty member profile pages on the website
 - Updating the Price Faculty of Engineering website with new information and research program pages
 - Managing the social media accounts for the faculty to ensure timely and accurate communication with stakeholders
